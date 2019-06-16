@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{dcda8605-db11-4b1e-b2cb-953a8aa51a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{43cec124-23bf-4da8-ab79-0a1af8624b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooking">
+      <UniqueIdentifier>{10fd172b-f828-4b2c-b118-bf3fd6224a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hooking\hookManager">
+      <UniqueIdentifier>{ca2e28eb-4d1e-4203-a879-22798f1e051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{c7ebcb97-3eab-4c6a-862c-07fc45941593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing">
+      <UniqueIdentifier>{17519f17-6cc1-4418-a755-b03f54125981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{0fcfd9e0-8b10-429c-b754-1e231faa234f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{1cabad2f-4287-4a11-b82c-09bf5f60fc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\Configuration">
+      <UniqueIdentifier>{24fab23b-4af1-46c6-be56-152c3478d57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{d3ad0aad-c724-4972-abb4-1ac989c2adaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Visuals">
+      <UniqueIdentifier>{b8eb740b-2560-4b41-991a-f8e7d0e1a8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Netvar Manager">
+      <UniqueIdentifier>{83bdf701-87a7-4401-b2b4-26669e029f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Radar">
+      <UniqueIdentifier>{40347a32-be0f-4d41-8ce8-c301361177fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Misc">
+      <UniqueIdentifier>{810e3d5b-062e-4c30-9974-8d7a4286b054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Aimbot">
+      <UniqueIdentifier>{36790079-6ef8-42dc-9813-de309d4f62fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Aimbot\Autowall">
+      <UniqueIdentifier>{8ef2c173-59f9-4aeb-9d4e-a25071145aad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="hookManager.cpp">
+      <Filter>Source Files\Hooking\hookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Source Files\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files\Menu\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Source Files\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseEntity.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Source Files\Features\Radar</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Source Files\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Source Files\Features\Aimbot\Autowall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="hookManager.h">
+      <Filter>Source Files\Hooking\hookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cEngineClient.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="iSurface.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Source Files\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Source Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputSystem.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Source Files\Menu\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="cViewSetup.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseEntity.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cClientEntityList.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Source Files\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Source Files\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Source Files\Features\Radar</Filter>
+    </ClInclude>
+    <ClInclude Include="debugOverlay.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="cUserCmd.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Studio.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ivModelInfo.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Source Files\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Source Files\Features\Aimbot\Autowall</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
